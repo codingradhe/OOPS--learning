@@ -46,8 +46,11 @@ int main() {
   student a = {1,35."radheshyam chaudhary",5};
   dynamic memory allocation
   student* s = new student(2,25,"janardan",6)
-  // IN dynamic memory you have to delete 
+  // IN dynamic memory you have to delete because destructor not called; 
   // call copy constructor
   student c(a);// c(a) && c = a-->> both same;
+  calling method in heap or dynamic memory allocaiton
+  cout<<s->name;
+  delete s;
   return 0;
 }
