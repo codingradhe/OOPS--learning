@@ -1,5 +1,5 @@
 // 🖊️🖊️🖊️when you call derived class then first parent class constructor is called and then child class constructor called;
-// 🖊️🖊️🖊️when you call derived class then first child class destructor is called and then parent class constructor called;
+// 🖊️🖊️🖊️when you call derived class then first child class destructor is called and then parent class constructor called;.
 #include <bits/stdc++.h>
 using namespace std;
 
